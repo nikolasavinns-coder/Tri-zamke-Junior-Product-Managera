@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PDF je na putu — Nikola Savin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#1a2540;
+    --accent:#c8922a;
+    --accent-light:#e0aa45;
+    --text:#2a2a2a;
+    --text-muted:#666;
+    --line:#e5e2dc;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  h1,p,div,a,strong{font-family:'DM Sans',system-ui,sans-serif;}
+  body{
+    font-family:'DM Sans',system-ui,sans-serif;
+    background:#fafaf8;
+    color:var(--text);
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:40px 24px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .card{
+    background:#fff;
+    border-radius:16px;
+    max-width:520px;
+    width:100%;
+    padding:56px 48px 44px;
+    text-align:center;
+    box-shadow:0 4px 32px rgba(0,0,0,0.07);
+  }
+  .icon{
+    width:64px;
+    height:64px;
+    background:var(--accent);
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto 28px;
+    font-size:1.6rem;
+    color:#fff;
+  }
+  h1{
+    font-family:'DM Sans',system-ui,sans-serif;
+    font-size:1.8rem;
+    font-weight:700;
+    color:var(--navy);
+    line-height:1.25;
+    margin-bottom:16px;
+  }
+  p{
+    font-family:'DM Sans',system-ui,sans-serif;
+    font-size:1rem;
+    color:var(--text-muted);
+    line-height:1.7;
+    margin-bottom:12px;
+  }
+  p:last-of-type{margin-bottom:32px;}
+  .divider{
+    border:none;
+    border-top:1px solid var(--line);
+    margin:28px 0;
+  }
+  .next-label{
+    font-family:'DM Sans',system-ui,sans-serif;
+    text-transform:uppercase;
+    font-size:0.82rem;
+    letter-spacing:0.1em;
+    color:var(--accent);
+    font-weight:600;
+    margin-bottom:10px;
+  }
+  .next{
+    font-size:1rem;
+    color:var(--text-muted);
+    line-height:1.7;
+  }
+  .linkedin-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:14px 28px;
+    background:var(--navy);
+    color:#fff;
+    font-family:'DM Sans',sans-serif;
+    font-size:0.97rem;
+    font-weight:600;
+    border-radius:9px;
+    text-decoration:none;
+    transition:background .15s ease;
+  }
+  .linkedin-btn:hover{background:#243050;}
+  .linkedin-sub{
+    font-family:'DM Sans',system-ui,sans-serif;
+    margin-top:10px;
+    font-size:1rem;
+    color:var(--text-muted);
+    line-height:1.55;
+    margin-bottom:0;
+  }
+  @media(max-width:560px){
+    .card{padding:40px 28px;}
+    h1{font-size:1.5rem;}
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">✓</div>
+    <h1>Sledeći task koji napišeš biće drugačiji.</h1>
+    <p>Besplatan vodič ti stiže na mejl u sledećih <strong>2–3 minuta</strong>. Ako ga ne vidiš u inboxu, proveri Promotions tab i Spam.</p>
+
+    <hr class="divider">
+
+    <div class="next-label">Dok čekaš</div>
+    <p class="next">Ne odlaži čitanje. Uzmi jedan konkretan zahtev koji si nedavno dobio. Kad PDF stigne, provuci ga kroz 4 koraka — i za 10 minuta imaćeš prvu konkretniju product odluku.</p>
+
+    <a class="linkedin-btn" href="https://www.linkedin.com/in/nikola-savin/" target="_blank" rel="noopener">
+      Zaprati me na LinkedIn-u →
+    </a>
+    <p class="linkedin-sub">Za još besplatnih materijala koji te približavaju mediorskom nivou.</p>
+  </div>
+</body>
+</html>
